@@ -1,4 +1,4 @@
-k=input("enter the k value")
+k=int(input("enter the k value"))
 myarray=[1,2,3,4,5]
 i=0
 sum=0
