@@ -1,2 +1,2 @@
 a=list(input("Enter String"))
-print(len(list(filter(lambda x:x.isnumeric(),a))))
+print(len(list(filter(lambda i:i.isnumeric(),a))))
