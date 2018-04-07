@@ -1,7 +1,6 @@
-n=int(input())
+n=int(input("enter"))
 sum=0
-i=0
-while(i<=n):
-  sum=sum+i
-  print(sum)
-  i=i+1
+if(n>0):
+  for i in range(1,n+1):
+    sum=sum+i
+  print(sum)  
