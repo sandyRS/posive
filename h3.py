@@ -1,4 +1,5 @@
 l=[]
+s=[]
 a=int(input())
 for i in range(1,a+1):
   n=int(input())
@@ -6,4 +7,5 @@ for i in range(1,a+1):
 for i in l:
   a=l.index(i)  
   if(i==a):
-    print(i)
+    s.append(i)
+print("".join(str(i) for i in s))
