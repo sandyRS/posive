@@ -8,4 +8,6 @@ for i in l:
   a=l.index(i)  
   if(i==a):
     s.append(i)
-print("".join(str(i) for i in s))
+    print("".join(str(i) for i in s))
+  else:
+    print("-1")
